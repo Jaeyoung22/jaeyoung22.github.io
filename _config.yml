@@ -194,6 +194,10 @@ defaults:
 
 sass:
   style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
 
 compress_html:
   clippings: all
@@ -222,3 +226,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-sass-converter
