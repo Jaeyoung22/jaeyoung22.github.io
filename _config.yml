@@ -38,6 +38,7 @@ social:
   email: yt930310@snu.ac.kr # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/jaeyoung22 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -194,10 +195,6 @@ defaults:
 
 sass:
   style: compressed
-  sass_dir: _sass
-  load_paths:
-    - _sass
-    - node_modules
 
 compress_html:
   clippings: all
@@ -226,6 +223,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-plugins:
-  - jekyll-sass-converter
