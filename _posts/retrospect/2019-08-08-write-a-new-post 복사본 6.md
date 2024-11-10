@@ -1,9 +1,9 @@
 ---
-title: 프리코스 1주차 미션 소감
-author: yeongtaek
-date: 2022-11-01 14:10:00 +0800
-categories: [Retrospect, 우아한테크코스]
-tags: [우아한테크코스]
+title: Writing a New Post
+author: cotes
+date: 2019-08-08 14:10:00 +0800
+categories: [Blogging, Tutorial]
+tags: [writing]
 render_with_liquid: false
 ---
 
