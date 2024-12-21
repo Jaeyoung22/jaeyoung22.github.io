@@ -4,7 +4,7 @@
   <id>https://jaeyoung22.github.io/</id>
   <title>DEVTIST</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-12-21T22:36:33+09:00</updated>
+  <updated>2024-12-21T22:41:35+09:00</updated>
   <author>
     <name>Yeongtaek Oh</name>
     <uri>https://jaeyoung22.github.io/</uri>
@@ -35,10 +35,6 @@
   
     
     <category term="output" />
-    
-    <category term="Retrospect" />
-    
-    <category term="우아한테크코스" />
     
   
 
