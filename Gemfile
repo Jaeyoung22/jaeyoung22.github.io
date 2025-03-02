@@ -6,7 +6,7 @@ gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
 
-ruby '~> 3.2.0'
+ruby '3.2.0'
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
