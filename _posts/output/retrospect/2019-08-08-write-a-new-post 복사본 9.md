@@ -1,7 +1,7 @@
 ---
-title: Writing a New Post
-author: cotes
-date: 2019-08-08 14:10:00 +0800
+title: 이직 후 수습 종료와 함께하는 뒤늦은 2024년 회고
+author: jaeyoung22
+date: 2024-03-02 23:59:59 +0800
 categories: [Blogging, Tutorial]
 tags: [writing]
 render_with_liquid: false
