@@ -5,8 +5,8 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign all_pinned = paginator.posts | where: 'pin', 'true' %}
-{% assign all_normal = paginator.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+{% assign all_pinned = paginator.posts | where: 'pin', 'true' | default: empty_array %}
+{% assign all_normal = paginator.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' | default: empty_array %}
 
 {% assign posts = all_pinned | concat: all_normal %}
 
@@ -54,11 +54,10 @@ refactor: true
               {% if post.categories.size > 0 %}
               <i class="far fa-folder-open fa-fw me-1"></i>
               <span class="categories">
-                    {% for category in post.categories %}
-                      {{ category }}
-                      {%- unless forloop.last -%},{%- endunless -%}
-                    {% endfor %}
-                  </span>
+                {% for category in post.categories %}
+                  {{ category }}{%- unless forloop.last -%},{%- endunless -%}
+                {% endfor %}
+              </span>
               {% endif %}
             </div>
 
