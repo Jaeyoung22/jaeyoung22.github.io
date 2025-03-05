@@ -5,8 +5,11 @@ refactor: true
 
 {% include lang.html %}
 
-{% assign all_pinned = paginator.posts | where: 'pin', 'true' | default: empty_array %}
-{% assign all_normal = paginator.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' | default: empty_array %}
+{% assign all_pinned = paginator.posts | where: 'pin', 'true' | default: "" %}
+{% assign all_normal = paginator.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' | default: "" %}
+
+{% assign all_pinned = all_pinned | compact %}
+{% assign all_normal = all_normal | compact %}
 
 {% assign posts = all_pinned | concat: all_normal %}
 
