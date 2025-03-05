@@ -207,6 +207,7 @@ compress_html:
 
 include:
   - "*.md"
+  - "_posts"
 
 exclude:
   - "*.gem"
