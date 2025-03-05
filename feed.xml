@@ -4,7 +4,7 @@
   <id>https://jaeyoung22.github.io/</id>
   <title>DEVTIST</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-03-03T11:31:15+09:00</updated>
+  <updated>2025-03-05T16:15:41+09:00</updated>
   <author>
     <name>Yeongtaek Oh</name>
     <uri>https://jaeyoung22.github.io/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>이직 후 수습 종료와 함께하는 뒤늦은 2024년 회고</title>
-    <link href="https://jaeyoung22.github.io/posts/%ED%9A%8C%EA%B3%A0/" rel="alternate" type="text/html" title="이직 후 수습 종료와 함께하는 뒤늦은 2024년 회고" />
-    <published>2024-03-03T01:00:00+09:00</published>
+    <title>이직 후 수습 종료 후에 하는 뒤늦은 2024년 회고 (부제 - 31살 노베이스 비전공자 2년만에 토스 서버 개발자 되다)</title>
+    <link href="https://jaeyoung22.github.io/posts/%ED%9A%8C%EA%B3%A0/" rel="alternate" type="text/html" title="이직 후 수습 종료 후에 하는 뒤늦은 2024년 회고 (부제 - 31살 노베이스 비전공자 2년만에 토스 서버 개발자 되다)" />
+    <published>2024-03-05T01:00:00+09:00</published>
   
-    <updated>2024-03-03T01:00:00+09:00</updated>
+    <updated>2024-03-05T01:00:00+09:00</updated>
   
     <id>https://jaeyoung22.github.io/posts/%ED%9A%8C%EA%B3%A0/</id>
     <content type="text/html" src="https://jaeyoung22.github.io/posts/%ED%9A%8C%EA%B3%A0/" />
@@ -40,7 +40,11 @@
     
   
 
-  <summary>테스트</summary>
+  <summary>옛날 옛적 그러니까 아직 술자리에서 게임을 할 체력과 치기 따위가 남아있던 시절, 단어를 누적해가며 암송하는 ‘시장에 가면’이라는 정겨운 이름의 게임을 종종 하곤했다. 4년전에도, 그리고 지금까지도 내겐 어딘가 저기 멀리 남미쪽 원주민의 이름같이 느껴지는 ‘네카라쿠배’라는 단어가 마치 ‘시장에 가면’처럼 ‘네카라쿠배당토’가 되고, ‘네카라쿠배당토몰두센’이 되더니, 이젠 만약 정말 게임이었다면 나는 분명히 벌칙을 받았을 ‘네카라쿠배당토몰두센마에그원’이 되었다. 어쨌거나 약 2년 전 쯤 개발자가 되어야겠다,고 마음을 먹는 동시에 목표로 삼은 회사들인 ‘네카라쿠배당토’ 중 일곱 번째(어감 탓임이 분명한) 자리를 차지하고 있는 토스에 합류한지 세 달이 지났다.
+
+개발자가 된 소회
+
+전 회사 얘기(티맥스, 케이...</summary>
 
   </entry>
 
